@@ -1,0 +1,55 @@
+2017-10-19T16:13:28.950Z - error: Error: listen EACCES 0.0.0.0:587
+    at Object._errnoException (util.js:1041:11)
+    at _exceptionWithHostPort (util.js:1064:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1305:19)
+    at listenInCluster (net.js:1370:12)
+    at doListen (net.js:1492:7)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:611:11)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:598:3
+2017-10-19T16:17:16.317Z - error: Error: listen EACCES 0.0.0.0:587
+    at Object._errnoException (util.js:1041:11)
+    at _exceptionWithHostPort (util.js:1064:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1305:19)
+    at listenInCluster (net.js:1370:12)
+    at doListen (net.js:1492:7)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:611:11)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:598:3
+2017-10-19T16:18:02.045Z - error: Error: listen EACCES 0.0.0.0:587
+    at Object._errnoException (util.js:1041:11)
+    at _exceptionWithHostPort (util.js:1064:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1305:19)
+    at listenInCluster (net.js:1370:12)
+    at doListen (net.js:1492:7)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:611:11)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:598:3
+2017-10-19T16:18:14.423Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:19:12.639Z - info: abd22585-06c2-4bc8-8394-172ac85041f3 Receiving message from 123@localhost:3000
+2017-10-19T16:19:12.646Z - info: abd22585-06c2-4bc8-8394-172ac85041f3 Processing message from 123@localhost:3000
+2017-10-19T16:19:12.888Z - info: abd22585-06c2-4bc8-8394-172ac85041f3 End processing message, deleted .tmp/abd22585-06c2-4bc8-8394-172ac85041f3
+2017-10-19T16:22:23.165Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:23:27.091Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:24:42.612Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:24:58.007Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:25:36.024Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:28:19.905Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:35:17.944Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:36:08.841Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:36:53.511Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:37:40.204Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:38:19.251Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:38:29.484Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:39:42.005Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:39:51.209Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:40:04.253Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:40:49.012Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:41:28.389Z - info: Mailin Smtp server listening on port 587
+2017-10-19T16:43:46.989Z - info: Mailin Smtp server listening on port 587
