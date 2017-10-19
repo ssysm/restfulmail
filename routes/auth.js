@@ -64,15 +64,14 @@ router.post('/signup',token_status,(req,res)=> {
 });
 
 router.post('/login', token_status,(req, res) => {
-    if (!req.body.email || !req.body.password) {
+    if (!req.body.username || !req.body.password) {
         res.status(416).json({
             success: false,
             message: "please check for 2 params"
         })
     } else {
         userCollection.findOne({
-            email: req.body.email,
-            active : true
+            username: req.body.username
         }, (err, docs) => {
             if (err) {
                 res.status(500).json({
@@ -114,8 +113,6 @@ router.get('/logout', (req, res) => {
         success: true,
         message: undefined
     })
-})
-
-module.exports = router;
+});
 
 module.exports = router;
